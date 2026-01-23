@@ -41,10 +41,10 @@ int minTimeToPaint(vector<int>&arr,int m){ //O(logN *n)
     while(st<=end){ // O(log(sum) * n)
         int mid=st+(end-st)/2;
 
-        if(isPossible(arr , n , m , mid)){ //right
+        if(isPossible(arr , n , m , mid)){ //left
             ans=mid;
             end= mid-1;
-        }else{ //left
+        }else{ //right
             st=mid+1;
         }
     }
