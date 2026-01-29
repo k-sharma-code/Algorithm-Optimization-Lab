@@ -12,9 +12,9 @@ bool perfectSqrt(int n){
         long long mid = st + (end - st)/ 2 ; 
         long long square = mid*mid; // prevent overflow
         if( square == n)  return true;
-        else if(square < n){
+        else if(square < n){ // Right
             st = mid +1;
-        }else{
+        }else{ // Left
             end = mid-1;
         }
     } 
