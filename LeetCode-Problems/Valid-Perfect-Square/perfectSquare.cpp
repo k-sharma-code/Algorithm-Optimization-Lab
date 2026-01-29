@@ -24,7 +24,6 @@ int main(){
     int x;
     cout<<" Enter integer value = ";
     cin>>x;
-    cout<< perfectS
-      qrt(x);
+    cout<< perfectSqrt(x);
     return 0;
 }
