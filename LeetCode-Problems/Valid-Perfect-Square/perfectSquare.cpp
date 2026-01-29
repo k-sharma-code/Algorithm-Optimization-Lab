@@ -1,7 +1,4 @@
 #include<iostream>
-#include<vector>
-#include<algorithm>
-
 using namespace std;
 
 bool perfectSqrt(int n){
