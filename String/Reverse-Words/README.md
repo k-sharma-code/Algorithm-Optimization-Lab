@@ -31,6 +31,5 @@ The core idea is to reverse the entire sentence first. This moves the words to t
 * **Single Word Strings:** The global reversal followed by a single local reversal correctly returns the word in its original order.
 
 ##  What I Learned
-* Mastered the **Two-Step Reversal** technique for sentence-level manipulation.
-* Learned how to use `getline(cin, s)` for handling multi-word inputs in C++.
+* learn **Two-Step Reversal** technique for sentence-level manipulation.
 * Practiced string normalization techniques to handle inconsistent spacing in user inputs.
