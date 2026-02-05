@@ -46,6 +46,6 @@ int main(){
         cout<<chars[i]<<" ";
     }
 
-    cout<< " \nNew length = "<<ans;
-
+    cout<< " \nNew length = "<<ans<<endl;
+    return 0;
 }
