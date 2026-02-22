@@ -32,12 +32,12 @@ Find the (row, column) coordinates of a target integer `target` in an $M \times 
 4. **Binary Search:** Perform standard search using `mat[row][col]`.
 
 **Complexity:** $O(\log(m \times n))$ time | $O(1)$ space.
-*Note: Asymptotically equivalent to Approach 1 as $\log(m \times n) = \log m + \log n$.*
+Note: Asymptotically equivalent to Approach 1 as $\log(m \times n) = \log m + \log n$.
 
 ---
 
 ##  Comparative Analysis
-| Feature | Nested Binary Search (`solution1.cpp`) | Virtual Flattening (`solution2.cpp`) |
+| Feature | Nested Binary Search (`searchInMatrix.cpp`) | Virtual Flattening (`searchMatrixFlatten.cpp`) |
 | :--- | :--- | :--- |
 | **Search Logic** | Two-pass (Row then Column) | Single-pass (Direct mapping) |
 | **Mathematical Base** | $\log m + \log n$ | $\log(m \times n)$ |
