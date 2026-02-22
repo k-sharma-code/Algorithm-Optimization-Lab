@@ -10,21 +10,21 @@ pair<int, int>searchInRow(vector<vector<int>>&mat , int tar , int row){
     while(st <= end){
         int mid = st + (end - st)/2;
         if(tar == mat[row][mid] ){
-            return make_pair(row , mid);
+            return {row , mid};
         }else if(tar > mat[row][mid]){
             st = mid +1;
         }else{
             end = mid -1;
         }
     }
-    return make_pair(-1 ,-1);
+    return {-1,-1};
 }
 
 pair<int,int>searchMatrix(vector<vector<int>>&mat , int tar ){  
     int m = mat.size() , n = mat[0].size();
     int stRow = 0 , endRow = m - 1;
     while(stRow <= endRow){
-        int midRow = stRow + (endRow - stRow);
+        int midRow = stRow + (endRow - stRow)/2;
         if(tar >= mat[midRow][0] && tar <= mat[midRow][n-1]){
             //found row now binary search on this row
             return searchInRow(mat , tar , midRow);
@@ -37,7 +37,7 @@ pair<int,int>searchMatrix(vector<vector<int>>&mat , int tar ){
             endRow = midRow - 1;
         }
     }
-    return make_pair(-1 , -1);
+    return {-1 , -1};
 }
 
 int main(){
