@@ -32,7 +32,7 @@ Find the (row, column) coordinates of a target integer `target` in an $M \times 
 4. **Binary Search:** Perform standard search using `mat[row][col]`.
 
 **Complexity:** $O(\log(m \times n))$ time | $O(1)$ space.
-*Note: Asymptotically equivalent to Approach 1 as $\log(M \times N) = \log M + \log N$.*
+*Note: Asymptotically equivalent to Approach 1 as $\log(m \times n) = \log m + \log n$.*
 
 ---
 
