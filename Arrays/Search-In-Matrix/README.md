@@ -40,9 +40,9 @@ Find the (row, column) coordinates of a target integer `target` in an $M \times 
 | Feature | Nested Binary Search (`solution1.cpp`) | Virtual Flattening (`solution2.cpp`) |
 | :--- | :--- | :--- |
 | **Search Logic** | Two-pass (Row then Column) | Single-pass (Direct mapping) |
-| **Mathematical Base** | $\log M + \log N$ | $\log(M \times N)$ |
+| **Mathematical Base** | $\log m + \log n$ | $\log(m \times n)$ |
 | **Input Validation** | Standard | Includes explicit empty matrix checks |
-| **Complexity** | $O(\log M + \log N)$ | $O(\log(M \times N))$ |
+| **Complexity** | $O(\log m + \log n)$ | $O(\log(m \times n))$ |
 
 
 
